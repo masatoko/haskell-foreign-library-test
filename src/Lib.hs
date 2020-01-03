@@ -1,6 +1,6 @@
 module Lib where
 
-foreign export ccall plusOne :: Int -> IO Int
+foreign export ccall plus_one :: Int -> IO Int
 
-plusOne :: Int -> IO Int
-plusOne x = return $ x + 1
+plus_one :: Int -> IO Int
+plus_one x = return $ x + 1
